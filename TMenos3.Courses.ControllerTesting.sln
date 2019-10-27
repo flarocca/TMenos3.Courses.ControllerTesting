@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1B5D35D1-86D0-443C-B930-85E91BA6A979}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F2A2F050-BE33-4177-8405-B06799FEDEE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMenos3.Courses.ControllerTesting.API", "src\TMenos3.Courses.ControllerTesting.API\TMenos3.Courses.ControllerTesting.API.csproj", "{D484C673-5544-4C34-9A51-53DFB0A16DE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMenos3.Courses.ControllerTesting.Contracts", "src\TMenos3.Courses.ControllerTesting.Contracts\TMenos3.Courses.ControllerTesting.Contracts.csproj", "{13AB08F7-566C-4D68-9D8E-1D7B38556BF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMenos3.Courses.ControllerTesting.Models", "src\TMenos3.Courses.ControllerTesting.Models\TMenos3.Courses.ControllerTesting.Models.csproj", "{85168AC9-E0A1-4731-874C-0A955893FB46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMenos3.Courses.ControllerTesting.Persistance", "src\TMenos3.Courses.ControllerTesting.Persistance\TMenos3.Courses.ControllerTesting.Persistance.csproj", "{7D45FB1C-9593-4038-A81D-2C1A15F6BD8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMenos3.Courses.ControllerTesting.IntegrationTests", "tests\TMenos3.Courses.ControllerTesting.IntegrationTests\TMenos3.Courses.ControllerTesting.IntegrationTests.csproj", "{C49D2F03-77B5-4ECB-A587-B52AC0A4F2FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMenos3.Courses.ControllerTesting.SubcutaneousTests", "tests\TMenos3.Courses.ControllerTesting.SubcutaneousTests\TMenos3.Courses.ControllerTesting.SubcutaneousTests.csproj", "{1AC2D3A9-4789-40F6-881D-7DBFDD434BD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMenos3.Courses.ControllerTesting.TestingUtils", "tests\TMenos3.Courses.ControllerTesting.TestingUtils\TMenos3.Courses.ControllerTesting.TestingUtils.csproj", "{4FFACC38-70DA-4A93-8C38-E8DFFFC2B60E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D484C673-5544-4C34-9A51-53DFB0A16DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D484C673-5544-4C34-9A51-53DFB0A16DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D484C673-5544-4C34-9A51-53DFB0A16DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D484C673-5544-4C34-9A51-53DFB0A16DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AB08F7-566C-4D68-9D8E-1D7B38556BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AB08F7-566C-4D68-9D8E-1D7B38556BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AB08F7-566C-4D68-9D8E-1D7B38556BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AB08F7-566C-4D68-9D8E-1D7B38556BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85168AC9-E0A1-4731-874C-0A955893FB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85168AC9-E0A1-4731-874C-0A955893FB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85168AC9-E0A1-4731-874C-0A955893FB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85168AC9-E0A1-4731-874C-0A955893FB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D45FB1C-9593-4038-A81D-2C1A15F6BD8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D45FB1C-9593-4038-A81D-2C1A15F6BD8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D45FB1C-9593-4038-A81D-2C1A15F6BD8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D45FB1C-9593-4038-A81D-2C1A15F6BD8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49D2F03-77B5-4ECB-A587-B52AC0A4F2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49D2F03-77B5-4ECB-A587-B52AC0A4F2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49D2F03-77B5-4ECB-A587-B52AC0A4F2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49D2F03-77B5-4ECB-A587-B52AC0A4F2FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC2D3A9-4789-40F6-881D-7DBFDD434BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC2D3A9-4789-40F6-881D-7DBFDD434BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC2D3A9-4789-40F6-881D-7DBFDD434BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC2D3A9-4789-40F6-881D-7DBFDD434BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FFACC38-70DA-4A93-8C38-E8DFFFC2B60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FFACC38-70DA-4A93-8C38-E8DFFFC2B60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FFACC38-70DA-4A93-8C38-E8DFFFC2B60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FFACC38-70DA-4A93-8C38-E8DFFFC2B60E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D484C673-5544-4C34-9A51-53DFB0A16DE5} = {1B5D35D1-86D0-443C-B930-85E91BA6A979}
+		{13AB08F7-566C-4D68-9D8E-1D7B38556BF0} = {1B5D35D1-86D0-443C-B930-85E91BA6A979}
+		{85168AC9-E0A1-4731-874C-0A955893FB46} = {1B5D35D1-86D0-443C-B930-85E91BA6A979}
+		{7D45FB1C-9593-4038-A81D-2C1A15F6BD8A} = {1B5D35D1-86D0-443C-B930-85E91BA6A979}
+		{C49D2F03-77B5-4ECB-A587-B52AC0A4F2FA} = {F2A2F050-BE33-4177-8405-B06799FEDEE5}
+		{1AC2D3A9-4789-40F6-881D-7DBFDD434BD9} = {F2A2F050-BE33-4177-8405-B06799FEDEE5}
+		{4FFACC38-70DA-4A93-8C38-E8DFFFC2B60E} = {F2A2F050-BE33-4177-8405-B06799FEDEE5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9974B0C6-C576-4136-BBCB-EEC636C4F1BD}
+	EndGlobalSection
+EndGlobal
